@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://shivamishere.github.io/forexCalculator-Build/",
+  
 
   "scripts": {
     "start": "react-scripts start",
