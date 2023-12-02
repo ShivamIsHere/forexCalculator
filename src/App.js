@@ -72,7 +72,7 @@ const formatCurrency = (number)=>{
     <div>
       <h1>Forex Calculator</h1>
       <p className='oneCurrencyText'>1 {currencyOne} equals</p>
-      <p className='rateText'>{formatCurrency(amountTwo/amountOne)}{currencyOne}</p>
+      <p className='rateText'>{formatCurrency(amountTwo/amountOne)} {currencyTwo}</p>
       <p className='date'>{format(new Date(), "dd/MM/yyyy h:mm")} </p>
       <CurrencyInput amount={amountOne} currency={currencyOne} currencies={Object.keys(currencyRates)} onAmountChange={handleAmountOneChange} onCurrencyChange={handleCurrencyOneChange} />
       <CurrencyInput amount={amountTwo} currency={currencyTwo} currencies={Object.keys(currencyRates)} onAmountChange={handleAmountTwoChange} onCurrencyChange={handleCurrencyTwoChange} />
