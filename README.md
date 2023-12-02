@@ -5,8 +5,11 @@ This project is basically converting value of currency on the basis of US dollar
 ## Running Instruction
 
 bash
+
 git clone https://github.com/ShivamIsHere/forexCalculator
+
 cd forexCalulator
+
 npm start
 
 
